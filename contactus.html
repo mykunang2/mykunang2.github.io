@@ -31,9 +31,6 @@
     </div>
     <!-- End Logo -->
 
-    <a href="www.kunangkunangku.com" title="KunangKunangku Bali">KunangKunangku Bali
-    </a>
-
     <!--Start Menu Primer-->
 
     <div class="container menu-primer">
@@ -63,7 +60,7 @@
             </li>
 
             <li>
-                <a href="contactus.html" title="Contact us" class active>Contact us</a>
+                <a href="contactus.html" title="Contact us" class="active">Contact us</a>
             </li>
         </ul>
     </div>
@@ -123,6 +120,8 @@
             </ul>
         </div>
     </div>
+    <br>
+   
     <!--End Address-->
 
 
@@ -135,40 +134,50 @@
                 <p>Or if you wish us to contact you, please fill in the form below.</p>
             </div>
 
-    <br>
-        <form action="">
-            <label for="nama">Name</label>
-            <input type="text" placeholder="Name" size="50" name="nama" id="nama">
+        <form action="" class="contact-form">
+            <div>
+                <label for="nama">Name</label>
+                <input type="text" placeholder="Name" size="50" name="nama" id="nama">
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <input type="text" placeholder="Address" size="50" Address="address" id="address">
+            </div>
+
+            <div>
+                <label for="tel">Telephone</label>
+                <input type="number" placeholder="Telephone" size="50" Telephone="tel" id="tel">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Email" size="50" Email="email" id="email">
+            </div>
+        
+    
+            <div>
+                <label for="message">Message</label>           
+                <br>
+                <textarea name="pesan" id="pesan" cols="46" row="10"
+                placeholder="Write down your message here"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" name="kirim" size="50"
+                value="Kirim">
+            </div>
         </form>
-    <br>
-
-        <form action="">
-            <label for="address">Address</label>
-            <input type="text" placeholder="Address" size="50" Address="address" id="address">
-        </form>
-    <br>
-
-        <form action="">
-            <label for="tel">Telephone</label>
-            <input type="number" placeholder="Telephone" size="50" Telephone="tel" id="tel">
-        </form>
-    <br>
-
-        <form action="">
-            <label for="Email">Email</label>
-            <input type="email" placeholder="Email" size="50" Email="email" id="email">
-        </form>
-    <br>
-
-            <label for="Message">Message</label>
-
-    <br>
-            <textarea> <col> ="46" <row>="10"> </textarea>
     </div>
 
     <!--End Kontak Form-->
 
+    <!--Start Google Map-->
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.100446972834!2d115.20807481310267!3d-8.681997493762008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240dd1967b945%3A0xbbe2de0b7f2e0ca2!2sKunangKunangku%20Bali!5e0!3m2!1sen!2sid!4v1572853518783!5m2!1sen!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
 
+    <!--End Google Map-->
 
     <!--Start MENU SEKUNDER-->
     <div class="container-full menu-sekunder">
@@ -226,13 +235,13 @@
                     <ul>
                         <li>
                             <img src="images/facebook.png" alt="Facebook KunangKunangku Bali" width="30">
-                            <a href="facebook.com" title="Facebook KunangKunangku Plush">Facebook KunangKunangku
+                            <a href="https://www.facebook.com/kunangkunangkuplush/" title="Facebook KunangKunangku Plush">Facebook KunangKunangku
                                 Plush</a>
                         </li>
 
                         <li>
                             <img src="images/instagram.png" alt="Instagram-Kunang_kunangku" width="30">
-                            <a href="instagram.com" title="Instagram kunang_kunangku">Instagram @kunang_kunangku</a>
+                            <a href="https://www.instagram.com/kunang_kunangku" title="Instagram kunang_kunangku">Instagram @kunang_kunangku</a>
                         </li>
                     </ul>
                 </h4>
@@ -255,6 +264,11 @@
         </h4>
     </div>
     <!--End Copyright-->
+
+
+
+
+
 
 </body>
 
