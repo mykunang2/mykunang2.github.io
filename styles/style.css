@@ -118,11 +118,22 @@ h6 {font-size: 13px;}
 .main-home-two {
     float: right;
     width: 49.5%;}
-/*End Main*/
 
-.main-home-one .box-isi
+.main-home-one .box-isi,
 .main-home-two .box-isi {
     height: 150px ;
+}
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width: 70%;
+}
+/*Start Sidebar*/
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width: 29%;
 }
 
 
@@ -148,10 +159,75 @@ h6 {font-size: 13px;}
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
+    min-height: 212px;
 }
-
-
 /*End Box*/
 
+/*Start Review from Happy People*/
 
+/*End Review from Happy People*/
+.testimonial {
+    border-left: 2px solid slategray;
+    margin-left: 30px;
+    padding-left: 20px;
+}
 
+/*Start Products Table*/
+
+/*End Products Table*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: wheat;
+    border-bottom: 1px solid wheat;
+    border-top: 1px solid wheat;
+    overflow: auto;
+    padding: 10px 0;
+}
+
+.menu-sekunder h3 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    width: 50%;
+}
+.menu-sekunder-two {
+    width: 20%;
+}
+.menu-sekunder-three {
+    width: 30%;
+}
+
+/*End Menu Sekunder*/
+
+/*Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/*End Copyright*/
