@@ -296,8 +296,8 @@ input[type="submit"],
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   margin: 10px;
-  max-width: 31%;
-  min-width: 31%;
+  max-width: 30%;
+  min-width: 30%;
   overflow: hidden;
   position: relative;
   text-align: center;
